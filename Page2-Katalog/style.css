@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: #f6f6f6;
+}
+/* Хедер */
+header{
+    width: 100%;
+    height: 14vh;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+}
+nav{
+width: 30px;
+}
+.nav_link{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navigate{
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+.katalog_container{
+  width: 180px;
+  display: flex;
+  justify-content: center;
+}
+.fa{
+  width: 90px;
+  height: 35px;
+  background-color: rgb(70, 70, 255);
+  border: none;
+  cursor: pointer;
+}
+.fa:hover{
+  background-color: blue;
+  transition: 1s;
+}
+.katalog{
+  width: 120px;
+  height: 40px;
+  background-color: rgb(70, 70, 255);;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+#burger{
+  color: white;
+}
+.katalog_id{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.katalog:hover{
+  background-color: blue;
+  transition: 1s;
+}
+.Header_container{
+  width: 65%;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.katalog_text{
+  color: white;
+}
+
+.nav_link:hover
+{
+  color: blue;
+  transition: 1s;
+}
+.lupa{
+  width: 50px;
+}
+
+.logo{
+  width: 200px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.Poisk{
+  border: solid 3px blue;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  width: 553px;
+  height: 40px;
+  background-color: blue;
+}
+.Search_mini{
+  width:15%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Search{  
+  width:85% ;
+  height: 100%;
+  border-radius: 5px;
+ 
+}
+.lupa{
+  width: 20px;
+  height: 20px;
+}
+
+
+/* Модалка */
+
+
+
+/* Боди */
+
+.body_container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.all_conteiner{
+  margin-top: 20px; 
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+.body_content{
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Сортировка */
+.sort{
+  margin-top: 15px; 
+  width: 278px;
+  height: 662px;
+  margin-left: 30px;  
+  background-color: white;
+  border: solid 1px blue;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.sort_cost{
+  width: 108px;
+  height: 32px;
+  background-color: white;
+  display: flex;
+  border: solid 1px #e0e0e0;
+  border-radius: 5px;
+  align-items: center;
+
+  
+}
+.From_and_To{
+  display: flex;
+  justify-content: space-around;
+}
+.cost_conteriner{
+  width: 232px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.cost{
+  width: 254px;
+  height: 25px;
+}
+.cost_span{
+  width: 40px;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: gray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 5px;
+ 
+}
+.pp{
+  font-weight: bold;
+}
+.sort_text{
+  width: 100%;
+  height: 90%;
+  border: none;
+  outline:none;
+}
+/* Товар */
+.tovar{
+  background-color: white;
+  width: 882px;
+  height: 224px;
+  border: solid 1px blue;
+  border-radius: 8px;
+}
+/* Футер */
+
+footer{
+  width: 100%;
+  height: 13vh;
+  background-color:#9F9F9F;
+  display: flex;
+  align-items: center;
+}
+.nav_social{
+  margin-top: 0px;
+}
+.social{
+text-align: center;
+}
+.social_media{
+  width: 3%;
+  margin-right: 10px;
+}
+.link{
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+.nav_site{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
